@@ -5,7 +5,7 @@ var arr = [10,20,30];
 //Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the given array.
 
   //Code Here
-
+let first = (arr) => arr[0]
 
 //Next problem
 
@@ -16,26 +16,43 @@ var arr = [40,50,60];
 
 
   //Code Here
-
+let last = (arr) => arr.slice(-1)[0];
 
 //Next Problem
 
 
 var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
-//Create a function named 'looper' that is given family as it's only argument, loops through the given array, and alerts every item in the array.
+//Create a function named 'looper' that is given family as it's only argument, 
+//loops through the given array, and alerts every item in the array.
 
   //Code Here
+  let looper = (family) => {
+    for(var i in family){
+      var fam = family[i];
+      alert(fam);
 
+     
+    }
+  }
 
 //Next problem
 
 
 
 var letters = ['A', 'B', 'C', 'D', 'E'];
-//Write a function called reversedLooper that is given letters as it's only argument and loops through the given array backwards alerting every item in the array starting at the end.
+//Write a function called reversedLooper that is given letters as it's only argument and loops 
+// through the given array backwards alerting every item in the array starting at the end.
 
   //Code Here
+reversedLooper = (letters) => {
+  for( var i = letters.length - 1; i >= 0; i-- ){
+    for(var i in letters){
+      var lett = letters[i];
+      alert(lett);
+    }
+  }
 
+}
 
 //Next Problem
 
